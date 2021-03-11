@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'bould';
+    src: url($pathFonts + 'bould-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url($pathFonts + 'bould-regular-webfont.woff') format('woff'),
+         url($pathFonts + 'bould-regular-webfont.ttf')  format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'bould';
+    src: url($pathFonts + 'bould-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url($pathFonts + 'bould-semibold-webfont.woff') format('woff'),
+         url($pathFonts + 'bould-semibold-webfont.ttf')  format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'bould';
+    src: url($pathFonts + 'bould-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url($pathFonts + 'bould-bold-webfont.woff') format('woff'),
+         url($pathFonts + 'bould-bold-webfont.ttf')  format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }

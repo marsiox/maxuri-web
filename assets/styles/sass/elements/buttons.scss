@@ -1,0 +1,33 @@
+.button-default.yellow{
+    display: block;
+    font-size: $fontSizeM;
+    font-weight: 600;
+    line-height: 17px;
+    background-color: $colorYellow;
+    border-radius: 3px;
+    padding: 11.5px 33px;
+    @include transition;
+
+    &:hover{
+        background-color: #f0473e;
+        color: #ffffff;
+    }
+}
+
+.button-default.blue{
+    text-align: center;
+    display: block;
+    font-size: $fontSizeL;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 22px;
+    background-color: $colorBlue;
+    border-radius: 5px;
+    padding: 17px 57.5px;
+    max-width: 222px;
+    @include transition;
+
+    &:hover{
+        background-color: #1E3598;
+    }
+}
